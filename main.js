@@ -51,6 +51,7 @@ clearBtn.addEventListener("mouseleave", () => {
     clearBtn.style.filter = 'none';
 });
 clearBtn.addEventListener("click", () => {
+    let cols = document.querySelectorAll('.col');
     cols.forEach(col => {
         col.style.filter = 'none';
     });
